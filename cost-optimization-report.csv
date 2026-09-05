@@ -1,0 +1,6 @@
+resource,id,type,status,recommendation
+EC2,i-0c161a820cf999289,t3.micro,Stopped,Review if instance is still required
+EBS,vol-00525c6fe489d15fb,gp3,Unattached,Review and delete if no longer required
+Elastic IP,eipalloc-012911b66592a2c9f,13.235.43.30,Unassociated,Review and release if no longer required
+Snapshot,snap-0bc01ed9bb11dec43,8 GB,55 days old,Review snapshot retention
+Snapshot,snap-047613ce5bf5258c5,8 GB,55 days old,Review snapshot retention
